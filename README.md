@@ -3,11 +3,7 @@
 </div>
 
 <div align="center">
-  <br/>
-  <i>
-    Computer Science graduate (<b>CGPA 9.43/10</b>) with 1+ year of combined internship experience in <b>Java backend development</b>, secure desktop applications, and real-world web solutions. I've built 10+ RESTful APIs, implemented AES-based encryption, optimized SQL queries, and contributed to live business website modules. Looking to grow as a <b>Software Developer / Java Full Stack Developer</b> through clean code, secure architecture, and scalable software.
-  </i>
-  <br/><br/>
+  <img src="https://raw.githubusercontent.com/akshataingale29/akshataingale29/main/assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
 </div>
 
 <br/>
@@ -20,8 +16,15 @@
 
 <br/>
 
-## 📌 Featured Projects
+## 👋 About Me
+- 🎓 **Computer Science graduate** with a **9.43/10 CGPA**.
+- 💻 **1+ year of internship experience** in Java backend development, secure desktop applications, and scalable web platforms.
+- 🚀 **Specialized in** building RESTful APIs (Spring Boot), optimizing SQL queries, and implementing secure encryption (AES).
+- 🎯 **Goal:** Looking to grow as a Software Developer / Java Full Stack Developer by writing clean code and designing secure, scalable software architectures.
 
+<br/>
+
+## 📌 Featured Projects
 <div align="center">
   <a href="https://github.com/akshataingale29?tab=repositories">
     <img src="https://raw.githubusercontent.com/akshataingale29/akshataingale29/main/assets/generated/projects-constellation.svg" alt="Projects Constellation" width="100%" />
@@ -32,21 +35,42 @@
 
 ## 💼 Experience
 
-**Software Developer Intern** — Mithra Enterprises, Pune _(May 2026 – Present)_
-- Contributing to a live company website and service platform for real-world business use cases
-- Building responsive sections for AI Automation, Web Development, Corporate Services, and Blockchain & Web3 pages using PHP, HTML, CSS, JavaScript, and Bootstrap/Tailwind
-- Using AI-assisted tools (ChatGPT, Cursor, GitHub Copilot, Gemini) to speed up development, debugging, and content refinement
-
-**Java Full Stack Developer Intern** — Zidio Development Pvt. Ltd., Pune _(Aug 2025 – Dec 2025)_
-- Built 10+ RESTful APIs using Spring Boot for scalable backend infrastructure
-- Reduced SQL query execution time by optimizing joins and indexing
-- Implemented role-based authentication and session management
-- Integrated React.js/HTML frontend with Spring Boot backend for seamless data flow
-
-**JavaFX Developer Intern** — MRND Lab Pvt. Ltd., Pune _(Jan 2025 – Jun 2025)_
-- Delivered a secure desktop application with AES encryption for data storage and transmission
-- Designed modular components using OOP principles to reduce code duplication
-- Performed systematic debugging and performance tuning for stability
+<table>
+  <tr>
+    <td width="30%"><strong>May 2026 – Present</strong></td>
+    <td width="70%">
+      <strong>Software Developer Intern</strong> — <em>Mithra Enterprises, Pune</em><br/>
+      <ul>
+        <li>Contributing to a live company website and service platform for real-world business use cases.</li>
+        <li>Building responsive sections for AI Automation, Web Development, Corporate Services, and Blockchain & Web3 pages using <strong>PHP, HTML, CSS, JavaScript, and Bootstrap/Tailwind</strong>.</li>
+        <li>Using AI-assisted tools (ChatGPT, Cursor, GitHub Copilot, Gemini) to speed up development, debugging, and content refinement.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%"><strong>Aug 2025 – Dec 2025</strong></td>
+    <td width="70%">
+      <strong>Java Full Stack Developer Intern</strong> — <em>Zidio Development Pvt. Ltd., Pune</em><br/>
+      <ul>
+        <li>Built 10+ RESTful APIs using <strong>Spring Boot</strong> for scalable backend infrastructure.</li>
+        <li>Reduced SQL query execution time by optimizing joins and indexing in <strong>MySQL</strong>.</li>
+        <li>Implemented role-based authentication and session management.</li>
+        <li>Integrated <strong>React.js</strong> frontend with Spring Boot backend for seamless data flow.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="30%"><strong>Jan 2025 – Jun 2025</strong></td>
+    <td width="70%">
+      <strong>JavaFX Developer Intern</strong> — <em>MRND Lab Pvt. Ltd., Pune</em><br/>
+      <ul>
+        <li>Delivered a secure desktop application with <strong>AES encryption</strong> for data storage and transmission.</li>
+        <li>Designed modular components using OOP principles to reduce code duplication.</li>
+        <li>Performed systematic debugging and performance tuning for stability.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -88,7 +112,6 @@
 <br/>
 
 ## 📡 Tech Radar & Language Telemetry
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/akshataingale29/akshataingale29/main/assets/generated/tech-stack.svg" alt="Tech Stack Radar" width="100%" />
 </div>
@@ -103,7 +126,7 @@
 
 <br/>
 
-## 🌌 3D GitHub Contributions
+## 📈 GitHub Telemetry & Stats
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/akshataingale29/akshataingale29/main/profile-3d-contrib/profile-night-view.svg" alt="3D GitHub Contributions" width="100%" />
@@ -111,8 +134,6 @@
 </div>
 
 <br/>
-
-## 📈 GitHub Telemetry & Stats
 
 <div align="center">
   <img align="center" alt="GitHub Stats" src="https://gh-readme-profile.vercel.app/api?username=akshataingale29&theme=neon-dark&border_width=0&border_radius=15.2&hide_border=true" />
@@ -123,11 +144,11 @@
 <br/>
 
 ## 📡 Live Activity Feed
-
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
 <br/>
+
 <div align="center">
     <sub>🚀 Shipping clean, secure, scalable software — one commit at a time.</sub>
 </div>
