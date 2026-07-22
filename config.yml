@@ -1,0 +1,90 @@
+# Galaxy Profile README Configuration — Akshata Ingale
+
+username: akshataingale29
+
+profile:
+  name: "Akshata Ingale"
+  tagline: "Java Full Stack Developer | Spring Boot · React.js · MySQL"
+  company: "Mithra Enterprises"
+  location: "Pune, Maharashtra, India"
+  bio: |
+    Computer Science graduate (CGPA 9.43/10) with 1+ year of combined internship
+    experience across Java backend development, secure desktop applications, and
+    live web platforms. Built 10+ RESTful APIs with Spring Boot, implemented AES-based
+    encryption, and shipped production website modules for real business use cases.
+  philosophy: '"Clean code, secure architecture, scalable solutions."'
+
+social:
+  email: "akshataingale2003@gmail.com"
+  linkedin: "akshata-ingale-57467b243"
+  website: "https://github.com/akshataingale29"
+
+galaxy_arms:
+  - name: "Backend Development"
+    color: "spring_green"
+    items:
+      - "Java"
+      - "Spring Boot"
+      - "JDBC"
+      - "Node.js"
+      - "PHP"
+  - name: "Frontend Development"
+    color: "code_blue"
+    items:
+      - "React.js"
+      - "JavaScript"
+      - "HTML5 / CSS3"
+      - "Bootstrap"
+      - "Tailwind CSS"
+  - name: "Database & Cloud"
+    color: "java_orange"
+    items:
+      - "MySQL"
+      - "MongoDB"
+      - "SQL Server"
+      - "AWS (Basics)"
+      - "GCP (Basics)"
+
+projects:
+  - repo: "akshataingale29/secure-data-transmission-system"
+    arm: 0
+    icon: "🔐"
+    description: "File-sharing platform with AES encryption for end-to-end secure data transfer, layered Controller-Service-Repository architecture, and granular access control."
+  - repo: "akshataingale29/job-portal-application"
+    arm: 0
+    icon: "💼"
+    description: "Multi-role desktop app (Admin / Employer / Job Seeker) built with Java, MySQL, and MVC architecture with optimized CRUD operations."
+  - repo: "akshataingale29/cybeorch-labs-platform"
+    arm: 1
+    icon: "🌐"
+    description: "Business website & service platform modules for AI Automation, Web Development, Corporate Services, and Blockchain & Web3 offerings, built with PHP, JavaScript, and Bootstrap."
+  - repo: "akshataingale29/doctor-appointment-system"
+    arm: 2
+    icon: "🩺"
+    description: "ML-based doctor recommendation engine using patient symptom analysis, with a MySQL backend managing records, schedules, and appointment history."
+
+theme:
+  void: "#050510"
+  nebula: "#0a0a1a"
+  star_dust: "#1c1c38"
+  code_blue: "#38bdf8"
+  java_orange: "#f89820"
+  spring_green: "#6db33f"
+  text_bright: "#f1f5f9"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
+
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Makefile"
+  max_display: 8

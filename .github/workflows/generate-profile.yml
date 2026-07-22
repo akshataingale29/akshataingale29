@@ -1,0 +1,50 @@
+name: Auto-Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run generator.main to update SVGs
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_USERNAME: akshataingale29
+      run: python -m generator.main
+
+    - name: Configure Git
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+
+    - name: Commit and push changes
+      run: |
+        git add assets/
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update: Refresh SVGs [$(date -u +%Y-%m-%d %H:%M UTC)]"
+          git push
+        fi
